@@ -1,0 +1,50 @@
+#blackBox {
+    background-color: black;
+    width: 1000px;
+    height: 70px;
+    padding-bottom: 0px;
+    overflow: visible;
+    z-index: 1;
+    font-size: 30px;
+
+}
+
+#beigeBox {
+    background-color: beige;
+    width: 1000px;
+    height: 325px;
+    padding-top: 0px;
+    position: fixed;
+    z-index: 0;
+}
+
+.centerHeader {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.leftDiv {
+    position: absolute;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.rightDiv {
+    text-align: left;
+    position: absolute;
+    padding-left: 625px;
+    width: 600px;
+}
+
+.justPara {
+    text-align: justify;
+    width: 210%;
+    padding-left: 250px;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.headerPad {
+    padding-left: 10px;
+}
